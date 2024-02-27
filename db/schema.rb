@@ -16,7 +16,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_26_203656) do
 
   create_table "chatbots", force: :cascade do |t|
     t.string "name"
-    t.string "openai_key"
     t.string "chroma_collection"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
